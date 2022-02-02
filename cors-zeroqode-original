@@ -1,0 +1,21 @@
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "GET",
+            "PUT",
+            "DELETE",
+            "POST"
+        ],
+        "AllowedOrigins": [
+            "https://yourdomain.com",
+            "https://yourdomain.bubbleapps.io"
+        ],
+        "ExposeHeaders": [
+            "ETag"
+        ],
+        "MaxAgeSeconds": 30000
+    }
+]
